@@ -1116,9 +1116,10 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   :root { --nav-h: 70px; }
 
   .logo { margin-right: auto; }
-  .hamburger { display: flex; order: 2; margin-right: 0; }
+  .hamburger { display: flex; order: 2; margin-left: 0; margin-right: 0; }
   .nav-links {
     position: fixed;
+    margin: 0;
     top: 0;
     right: 0;
     bottom: 0;
@@ -1140,7 +1141,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
     visibility: visible;
   }
   .nav-link { font-size: 1rem; padding: 12px 0; width: 100%; }
-  .btn-enquire { display: inline-flex; font-size: 0.7rem; padding: 6px 14px; margin-right: 16px; order: 1; }
+  .btn-enquire { display: inline-flex; font-size: 0.7rem; padding: 6px 14px; margin-right: 4px; order: 1; }
 
   .hero-content { padding: 0 5% 96px; }
   .hero-headline { font-size: 2.8rem; }
