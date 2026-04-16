@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "*.php": {
+      "runtime": "vercel-php@0.8.0"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/contact-process",
+      "destination": "/contact-process.php"
+    }
+  ]
+}
