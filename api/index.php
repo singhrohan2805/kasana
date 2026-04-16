@@ -671,7 +671,7 @@ $meta_description = "Discover ZEAL by Kasana – ultra-modern Grade A commercial
                     <div class="form-error" id="form-error-msg" style="display: none;"></div>
                 </div>
 
-                <form method="POST" action="/contact-process" class="contact-form" id="contactForm" novalidate>
+                <form method="POST" action="api/contact-process.php" class="contact-form" id="contactForm" novalidate>
                     <div class="field-row">
                         <div class="form-field-v2">
                             <label>First Name</label>

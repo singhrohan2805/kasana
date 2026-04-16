@@ -240,7 +240,7 @@ if (contactForm) {
 
     const formData = new FormData(contactForm);
 
-    fetch('/contact-process', {
+    fetch('api/contact-process.php', {
       method: 'POST',
       body: formData
     })

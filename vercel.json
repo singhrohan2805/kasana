@@ -8,10 +8,6 @@
     {
       "source": "/",
       "destination": "/api/index.php"
-    },
-    {
-      "source": "/contact-process",
-      "destination": "/api/contact-process.php"
     }
   ]
 }
